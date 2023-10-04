@@ -114,7 +114,7 @@ HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
     URL = "https://auto-file-stream.onrender.com/".format(FQDN)
 else:
-    URL = "https://loyalprofessorrobot-prashantbaba000.koyeb.app/".format(FQDN)
+    URL = "https://auto-file-stream.onrender.com/".format(FQDN)
 
 
 
